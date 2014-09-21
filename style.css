@@ -32,6 +32,13 @@
     padding: 30px;
   }
 
+  section h1
+  {
+    color: #36f;
+    font-size: 3.5em;
+    text-align: center;
+  }
+
   h1
   {
     font-family: "Quicksand", sans-serif;
@@ -85,7 +92,7 @@
     margin-right: 15px;
   }
 
-/* AUTOR */
+/* SEC QUEM SOU */
 
   #sec-quemsou
   {
@@ -133,3 +140,75 @@
     left: -30px;
     position: absolute;
   }
+
+/* SEC CONTATO */
+
+  #sec-contato
+  {
+    background-image: url(sec-contato-bg.jpg);
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-color: #ccc;
+    text-align: center;
+  }
+
+  #sec-contato form
+  {
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: #333 0 0 15px;
+    margin: 30px auto;
+    padding: 30px;
+    width: 50%;
+  }
+
+  #sec-contato form input[type="text"],
+  #sec-contato form input[type="email"],
+  #sec-contato form textarea
+  {
+    background: #eee;
+    border: 1px solid #ccc; 
+    display: block;
+    margin: 15px 0;
+    padding: 15px;
+    width: 100%;
+  }
+
+  #sec-contato form input[type="text"]:focus,
+  #sec-contato form input[type="email"]:focus,
+  #sec-contato form textarea:focus
+  {
+    background: #fff;
+  }
+
+  #sec-contato form textarea
+  {
+    font-family: "Droid Sans", sans-serif;
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+
+  #sec-contato form input[type="submit"]
+  {
+    background-color: #36f;
+    border-radius: 5px;
+    box-shadow: inset #03c -1px -1px 1px, inset #69f 1px 1px 1px;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 30px;
+  }
+
+  #sec-contato form input[type="submit"]:hover
+  {
+    background-color: #03c;
+    box-shadow: inset #03c -1px -1px 1px, inset #039 1px 1px 1px;
+  }
+
+/* FOOTER */
+
+#footer
+{
+  background-color: #333;
+  padding: 30px;
+  width: 100%;
+}
