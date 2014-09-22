@@ -206,6 +206,11 @@
     background: #fff;
   }
 
+  #sec-contato form input[type="text"]
+  {
+    margin-top: 0;
+  }
+
   #sec-contato form textarea
   {
     font-family: "Droid Sans", sans-serif;
