@@ -29,7 +29,8 @@
 
   section
   {
-    padding: 30px;
+    padding: 60px 30px;
+    text-align: center;
   }
 
   section h1
@@ -38,6 +39,13 @@
     font-size: 3.5em;
     margin-bottom: 15px;
     text-align: center;
+    text-shadow: #03c 1px 1px 0;
+  }
+
+  section h2
+  {
+    font-size: 3.5em;
+    text-shadow: #fff 1px 1px 0;
   }
 
   h1
@@ -146,6 +154,22 @@
     padding: 30px 30px 15px 30px;
   }
 
+/* SEC O QUE EU FAÇO */
+
+#img-oquefaco
+{
+  background-image: url(sec-oqueeufaco-site02.png);
+  background-position: 100% 0;
+  background-attachment: fixed;
+  margin-top: 60px;
+}
+
+#sec-oquefaco p
+{
+  display: inline-block;
+  max-width: 60%;
+}
+
 /* SEC CONTATO */
 
   #sec-contato
@@ -242,9 +266,9 @@
 
 /* FOOTER */
 
-#footer
-{
-  background-color: #333;
-  padding: 30px;
-  width: 100%;
-}
+  #footer
+  {
+    background-color: #333;
+    padding: 30px;
+    width: 100%;
+  }
