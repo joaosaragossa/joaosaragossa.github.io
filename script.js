@@ -36,4 +36,24 @@ $(document).ready(function()
     });
     return false;
   });
+
+  $(".sec-portifolio-ul li").click(function(){
+
+    $("#sec-portifolio-modalbg").css("display","inherit");
+
+    var src = $(this).find("img").attr("src");
+    var url = $(this).find("img").attr("url");
+    var h3  = $(this).find("h3").text();
+    var p   = $(this).find("p").text();
+
+    $("#sec-portifolio-modal").find("a").attr("href",url);
+    $("#sec-portifolio-modal").find("img").attr("src",src);
+    $("#sec-portifolio-modal").find("h1").text(h3);
+    $("#sec-portifolio-modal").find("p").text(p);
+  });
+
+  $(".fa-times").click(function(){
+
+    $("#sec-portifolio-modalbg").css("display","none");
+  });
 });

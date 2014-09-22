@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <title>João Saragossa</title>
-    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.0.3/css/font-awesome.min.css">
     <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </head>
@@ -21,7 +22,7 @@
       </nav>
     </header>
     <section id="sec-quemsou" class="parallax" data-speed="5">
-      <img src="joao.jpg" class="img-avatar" alt="sec-quemsou-autor">
+      <img src="img/joao.jpg" class="img-avatar" alt="sec-quemsou-autor">
       <p class="p-balao">Olá, meu nome é João!<br>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dolorum laboriosam eveniet quam eligendi nihil omnis, qui perspiciatis nostrum provident. Perferendis harum vitae fugiat quae reiciendis vel voluptatum, sapiente fugit error impedit id nostrum mollitia eaque accusamus itaque! Sunt, voluptatibus, reprehenderit. Quo a minus assumenda, vero facere! Recusandae, sequi nam!<br>
       <iframe src="http://www.facebook.com/plugins/like.php?href=http://joaosaragossa.github.io/&;layout=standard&<br>2.show_faces=false&width=380&action=like&colorscheme=light&height=25&locale=pt_BR" scrolling="no" frameborder="0" style="border:none; display: inline-block;overflow:hidden; width:60px; height:25px; margin-top:10px" allowTransparency="true"></iframe>
@@ -30,46 +31,55 @@
     <section id="sec-oquefaco">
       <h1>O que eu faço</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, soluta. Voluptatem facilis perspiciatis ex, fuga aliquam! Fugiat sint accusantium, suscipit rem minima magni nam animi excepturi cupiditate explicabo nisi placeat.<br></p>
-      <img src="sec-oquefaco-monitor.png" id="img-oquefaco" class="parallax02" data-speed="5">
-      <h2>Sites</h2>
+      <img src="img/sec-oquefaco-monitor.png" id="img-oquefaco" class="parallax02" data-speed="5">
+      <h2>Web Design</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, facilis natus ratione animi. Reprehenderit perspiciatis cupiditate asperiores voluptatem labore, amet rem sapiente molestias assumenda obcaecati.<br></p>
-      <img src="sec-oqueeufaco-arte.jpg">
-      <h2>Design Gráfico</h2>
+      <img src="img/sec-oqueeufaco-arte.jpg">
+      <h2>Arte Gráfica</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In iste, cum eveniet animi alias officiis. Accusamus dolorum cumque, vitae placeat minus mollitia sed ipsum sapiente.</p>
     </section>
     <section id="sec-portifolio">
+      <div id="sec-portifolio-modalbg">
+        <div id="sec-portifolio-modal">
+          <i class="fa fa-times"></i>
+          <a href="" target="blanc"><img src=""></a>
+          <h1></h1>
+          <p></p>
+        </div>
+      </div>
       <h1>Portifólio</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sequi laboriosam, eveniet tenetur provident aperiam quis libero pariatur dolorem perferendis aliquam vitae nisi, earum consequatur minus adipisci. Facere quo, reprehenderit.</p>
-      <nav>
-        <button>Sites</button>
-        <button>Design Gráfico</button>
-      </nav>
-      <ul id="sec-portifolio-ul-sites">
+      <h2>Sites</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, doloremque nam ipsam tenetur facilis. Dolorem quis maxime libero! Cumque nulla doloribus eum. Dolorum, voluptates blanditiis. Eos modi eius cupiditate quidem, nihil vitae, excepturi nam! Rerum praesentium veniam similique ullam nobis, aspernatur repellendus obcaecati quas delectus eaque, quis cupiditate, eius facilis?</p>
+      <ul class="sec-portifolio-ul sites">
         <li>
-          <img src="">
-          <h2>Recanto Domus</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit illum, ab animi eligendi dolorum id nostrum deserunt tempora expedita debitis sit fugit eius inventore natus cupiditate voluptatem, magnam, illo itaque accusantium voluptas cum velit. Sunt tempora, numquam in dolores inventore?</p>
+          <img src="img/sec-portifolio-domus.png" url="http://recantodomus.com.br/">
+          <h3>Recanto Domus</h3>
+          <p>O objetivo desse projeto foi remodelar o antigo site afim de atingir e conquistar novos clientes, criação de nova identidade visual, ampliar a capacidade de vendas e interação cliente/serviço, contemplando dispositivos móveis e clientes de língua espanhola e inglesa. Para isso utilizei os recursos do HTML 5 e CSS 3 e da linguagem de programação JavaScript através da biblioteca JQuery para criar uma experiência fluida e intuitiva baseada na abordagem de UX One Page e Mobile First. Gerenciamento de conteúdo utilizando CMS WordPress utilizando banco de dados MySQL.</p>
         </li>
-          <img src="">
-          <h2>A Maçã</h2>
+        <li>
+          <img src="img/sec-portifolio-maca.png" url="http://officinaartaud.org/maca/">
+          <h3>A Maçã</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit illum, ab animi eligendi dolorum id nostrum deserunt tempora expedita debitis sit fugit eius inventore natus cupiditate voluptatem, magnam, illo itaque accusantium voluptas cum velit. Sunt tempora, numquam in dolores inventore?</p>
         </li>
       </ul>
-      <ul id="sec-portifolio-ul-design">
+      <h2>Design Gráfico</h2>
+      <ul class="sec-portifolio-ul design">
         <li>
-          <img src="">
-          <h2>Festival do Minuto</h2>
+          <img src="img/">
+          <h3>Festival do Minuto</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit illum, ab animi eligendi dolorum id nostrum deserunt tempora expedita debitis sit fugit eius inventore natus cupiditate voluptatem, magnam, illo itaque accusantium voluptas cum velit. Sunt tempora, numquam in dolores inventore?</p>
         </li>
-          <img src="">
-          <h2>Cartaz A Maçã</h2>
+        <li>
+          <img src="img/">
+          <h3>Cartaz A Maçã</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit illum, ab animi eligendi dolorum id nostrum deserunt tempora expedita debitis sit fugit eius inventore natus cupiditate voluptatem, magnam, illo itaque accusantium voluptas cum velit. Sunt tempora, numquam in dolores inventore?</p>
         </li>
       </ul>
     </section>
     <section id="sec-contato">
       <h1>Contato</h1>
-      <img src="joao.jpg" id="sec-contato-autor" alt="sec-contato-autor">
+      <img src="img/joao.jpg" id="sec-contato-autor" alt="sec-contato-autor">
       <p class="p-balao">Fique a vontade para me enviar uma mensagem.<br>
       Ah, se você também não tem paciência pra e-mail, pode falar comigo diretamente no <a href="https://www.facebook.com/joaopaulo.saragossa" target="blanc">meu facebook</a>, eu estou sempre por lá! :)</p>
       <form action="//forms.brace.io/joaosaragossa.dev@gmail.com" method="post">
