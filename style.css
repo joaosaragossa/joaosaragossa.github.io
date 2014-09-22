@@ -65,6 +65,11 @@
     line-height: 150%;
   }
 
+  img
+  {
+    max-width: 100%;
+  }
+
   .p-balao
   {
     background-color: rgba(255,255,255,0.7);
@@ -132,8 +137,10 @@
     background-size: 100%;
     background-position: 50% 0;
     background-attachment: fixed;
+    box-shadow: inset #000 0 0 30px;
     padding: 90px 30px 60px 30px;
     text-align: center;
+
   }
 
   #sec-quemsou img
@@ -156,29 +163,64 @@
 
 /* SEC O QUE EU FAÇO */
 
-#img-oquefaco
-{
-  background-image: url(sec-oqueeufaco-site02.png);
-  background-position: 100% 0;
-  background-attachment: fixed;
-  margin-top: 60px;
-}
+  #img-oquefaco
+  {
+    background-image: url(sec-oqueeufaco-site02.png);
+    background-position: 100% 0;
+    background-attachment: fixed;
+  }
 
-#sec-oquefaco p
-{
-  display: inline-block;
-  max-width: 60%;
-}
+  #sec-oquefaco p
+  {
+    color: #666;
+    display: inline-block;
+    max-width: 60%;
+  }
+
+  #sec-oquefaco img
+  {
+    display: block;
+    margin: 60px auto 30px auto;
+  }
+
+/* SEC PORTIFÓLIO */
+
+  #sec-portifolio
+  {
+    background-image: url(sec-contato-bg.jpg);
+    background-position: 50% 0;
+    background-attachment: fixed;
+    box-shadow: inset #000 0 0 30px;
+  }
+
+  #sec-portifolio p
+  {
+  }
+
+  #sec-portifolio h2
+  {
+  }
 
 /* SEC CONTATO */
 
   #sec-contato
   {
-    background-image: url(sec-contato-bg.jpg);
-    background-position: 50% 0;
-    background-attachment: fixed;
-    background-color: #ccc;
+    background-color: #36f;
     text-align: center;
+
+    background: -moz-radial-gradient(center, ellipse cover,  #3366ff 0%, #0033cc 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3366ff), color-stop(100%,#0033cc));
+    background: -webkit-radial-gradient(center, ellipse cover,  #3366ff 0%,#0033cc 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #3366ff 0%,#0033cc 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #3366ff 0%,#0033cc 100%);
+    background: radial-gradient(ellipse at center,  #3366ff 0%,#0033cc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3366ff', endColorstr='#0033cc',GradientType=1 );
+  }
+
+  #sec-contato h1
+  {
+    color: #fff;
+    text-shadow: #03c 1px 1px 0;
   }
 
   #sec-contato-autor
@@ -269,6 +311,8 @@
   #footer
   {
     background-color: #333;
-    padding: 30px;
+    background-image: url(footer-bg.jpg);
+    box-shadow: #000 15px 0 15px, inset #000 0 0 30px;
+    padding: 60px 30px;
     width: 100%;
   }
