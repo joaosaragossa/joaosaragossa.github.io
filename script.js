@@ -50,10 +50,38 @@ $(document).ready(function()
     $("#sec-portifolio-modal").find("img").attr("src",src);
     $("#sec-portifolio-modal").find("h1").text(h3);
     $("#sec-portifolio-modal").find("p").text(p);
+
+    if ($(this).attr("class") == "sites") {
+
+      $("#sec-portifolio-modal img").css({
+
+        "width":"50%",
+        "max-height":"inherit"
+      });
+    };
+    if ($(this).attr("class") == "design") {
+
+      $("#sec-portifolio-modal").css({
+        
+        "left":"20%",
+        "width":"60%"
+      });
+
+      $("#sec-portifolio-modal img").css({
+
+        "width":"auto",
+        "max-height":"50%"
+      });
+    };
   });
 
   $(".fa-times").click(function(){
 
     $("#sec-portifolio-modalbg").css("display","none");
+
+    $("#sec-portifolio-modal").find("a").attr("href","");
+    $("#sec-portifolio-modal").find("img").attr("src","");
+    $("#sec-portifolio-modal").find("h1").text("");
+    $("#sec-portifolio-modal").find("p").text("");
   });
 });

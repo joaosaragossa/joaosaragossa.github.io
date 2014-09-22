@@ -38,7 +38,6 @@
     font-size: 3.5em;
     margin-bottom: 15px;
     text-align: center;
-    text-shadow: #03c 1px 1px 0;
   }
 
   section h2
@@ -236,8 +235,9 @@
   #sec-portifolio-modal img
   {
     float: left;
+    max-height: 50%;
     margin-right: 30px;
-    width: 50%;
+    width: auto;
   }
 
   #sec-portifolio-modal h1
@@ -265,6 +265,21 @@
   #sec-portifolio h2
   {
     margin-top: 60px;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  #sec-portifolio h2:before
+  {
+    content: "";
+    border-top: 1px solid #666;
+    display: block;
+    left: 10%;
+    margin: 0 auto;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    width: 80%;
   }
 
   #sec-portifolio-nav
@@ -326,7 +341,6 @@
   #sec-contato h1
   {
     color: #fff;
-    text-shadow: #03c 1px 1px 0;
   }
 
   #sec-contato-autor
