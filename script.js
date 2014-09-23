@@ -1,13 +1,11 @@
 $(document).ready(function()
 {
 
-
   $('#menu ul li a').click(function()
     {
       $('html, body').animate({scrollTop: $($(this).attr("href")).offset().top}, 1000);
       return false;
     });
-
 
   $('.parallax').each(function(){
     var $obj = $(this);
